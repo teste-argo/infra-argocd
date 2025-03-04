@@ -6,7 +6,7 @@ metadata:
 spec:
   generators:
     - git:
-        repoURL: https://github.com/seu-usuario/infra-argocd.git
+        repoURL: https://github.com/teste-argo/infra-argocd.git
         revision: main
         directories:
           - path: infra-ecr/*
@@ -18,7 +18,7 @@ spec:
     spec:
       project: default
       source:
-        repoURL: https://github.com/seu-usuario/infra-argocd.git
+        repoURL: https://github.com/teste-argo/infra-argocd.git
         targetRevision: main
         path: '{{path.path}}'
       destination:
