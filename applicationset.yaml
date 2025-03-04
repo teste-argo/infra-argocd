@@ -20,7 +20,7 @@ spec:
       source:
         repoURL: https://github.com/teste-argo/infra-argocd.git
         targetRevision: main
-        path: '{{path.path}}'
+        path: '{{path}}'
       destination:
         server: https://kubernetes.default.svc
         namespace: default
