@@ -1,16 +1,1 @@
-apiVersion: ecr.aws.vocedm.io/v1beta1
-kind: XRepository
-metadata:
-  name: dmconta-account
-spec:
-  deletionPolicy: Orphan
-  providerConfigName: provider-plataformadev-dmcontastg
-  parameters:
-    name: dmconta-account
-    region: sa-east-1
-    imageTagMutability: MUTABLE
-    tags:
-      env: "stg"
-      domain: "dmconta"
-      app: "account"
-      cc: "10518"
+
