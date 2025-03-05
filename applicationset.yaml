@@ -9,9 +9,9 @@ spec:
         repoURL: https://github.com/teste-argo/infra-argocd.git
         revision: main
         directories:
-          - path: infra-ecr/*
-          - path: infra-sa/*
-          - path: infra-secret/*
+          - path: infra-ecr
+          - path: infra-sa
+          - path: infra-secret
   template:
     metadata:
       name: '{{path.basename}}'
