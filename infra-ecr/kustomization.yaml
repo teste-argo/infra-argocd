@@ -1,0 +1,4 @@
+resources:
+  - ecr-dmconta-prod.yaml
+  - ecr-dmconta-stg.yaml
+  - ecr-spoke-prod.yaml

@@ -1,7 +1,0 @@
-apiVersion: ecr.aws.crossplane.io/v1alpha1
-kind: Repository
-metadata:
-  name: spoke-stg-ecr1
-spec:
-  forProvider:
-    region: us-west-2
