@@ -12,6 +12,7 @@ spec:
           - path: infra-ecr/*
           - path: infra-sa/*
           - path: infra-secret/*
+          - path: overlays/*/aws
   template:
     metadata:
       name: '{{path.basename}}'
