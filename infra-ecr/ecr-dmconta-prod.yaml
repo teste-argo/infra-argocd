@@ -1,7 +1,7 @@
 apiVersion: ecr.aws.crossplane.io/v1alpha1
 kind: Repository
 metadata:
-  name: prod-ecr-dmconta
+  name: ecr-prod-dmconta
 spec:
   forProvider:
     region: us-west-2
